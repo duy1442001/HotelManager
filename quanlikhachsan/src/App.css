@@ -1,0 +1,260 @@
+
+/* root */
+.hover-url{
+  text-decoration: none !important;
+  color: rgba(231, 0, 0, 0.8) !important;  
+}
+.high-load{
+  min-height: 330px!important
+}
+.load-spinner-table {
+  display: block !important;
+  margin-top: 130%;
+  padding-bottom: 30%;
+  margin-left: 580% !important;
+}
+
+.high-load-service{
+  min-height: 230px!important
+}
+.load-spinner-table-service{
+  display: block !important;
+  margin-top: 80%;
+  padding-bottom: 35%;
+
+  margin-left: 670% !important;
+}
+
+.high-load-user{
+  min-height: 230px!important
+}
+.load-spinner-table-user{
+  display: block !important;
+  margin-top: 120%;
+  padding-bottom: 35%;
+  margin-left: 910% !important;
+}
+
+
+
+
+.load-spinner{
+  min-height: 50px !important;
+margin-right: 1%;
+ padding-top: 1%;
+}
+.line-page-bold{
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+.logo-navbar{
+  width: 39px;
+}
+.line-page{
+  width: 100%;
+  border-bottom: 1px solid #ced4da;
+}
+.hover-text:hover{
+  opacity: 0.6;
+}
+.black{
+  color: #000 !important;
+}
+.white{
+  color: white !important;
+}
+/* Header */
+.navbar_warapper a{
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+/* room manager */
+.btn-rooms .btn-change-room {
+  color: rgb(0, 0, 0) !important;
+  background-color: #f7f7f7 !important;
+  border-color: #f7f7f7!important;
+  margin-left: 30px;
+  border-right: 1px solid rgba(150, 149, 149,0.2)  !important;
+}
+.btn-rooms .btn-change-room:hover{
+  text-decoration: none !important;
+  color: rgba(231, 0, 0, 0.8) !important;  
+}
+.sort-rooms{
+  display: flex;
+  margin: auto;
+}
+/* form sort room */
+.select-size{
+  width: 189px;
+}
+.submit-sort-room {
+  margin-top: 10%;
+  align-items: center;
+  height: 100%;
+ height: 20%;
+  /* color: #fff;
+  background-color: rgba(99, 56, 253, 0.8) !important;
+  outline-color: rgba(99, 56, 253, 0.8) !important; */
+}
+.circle-red {
+ color: #fff;
+  background-color:  rgba(231, 0, 0, 0.8);
+  display: inline-block;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+}
+/* button raido */
+/* The container */
+.radioButton {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radioButton input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radioButton:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radioButton input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radioButton input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radioButton .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.container-tabs {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* width: 500px;
+  height: 300px; */
+  background: #f1f1f1;
+  /* margin: 100px auto 0; */
+  word-break: break-all;
+  border-top: 1px solid rgba(0, 0, 0, 0.274);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+
+}
+
+.bloc-tabs {
+  display: flex;
+}
+.tabs {
+
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+.tabs:not(:last-child){
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs  {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: rgb(88, 147, 241);
+}
+
+
+
+button {
+  border: none;
+  
+}
+.content-tabs {
+  flex-grow : 1;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+}
+
+
+
+
